@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
+#company .img{
+    height: 68px;
+    width: 12%;
+    margin-left: 8px;
+}
+#skills{
+    margin: 50px;
+}
+#skills .row .card .span{
+    color: aliceblue;
+    background-color: green;
+    border: 1px solid black;
+}
+#skills .row .card {
+    margin-right: 1rem;
+    width: 19%; height: auto;
+}
+#skills .row .card img{
+    border: 2px solid black;
+    border-radius: 106px;
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem;
+}
+#opportunity{
+    display: flex;
+}
+#opportunity #left{
+    float: left;
+    margin-left: 24px;
+    margin: 50px;
+}
+#opportunity #left #text{
+    margin-top: 20px;
+}
+#opportunity #right{
+    float: right;
+    margin: 70px;
+}
+#opportunity #right img{
+    width: 100%;
+    height: auto;
+    margin: 30px;
+}
+h3{
+    font-size:3.5rem;
+}
+/* #text{
+    height: 5rem;
+} */
+@media screen and (max-width: 804px){
+    #company .img{
+        height: 68px;
+        width: 10%;
+        margin: 8px;
+    }
+    #skills .row .card {
+        margin-right: 1rem;
+        width: 22%;
+         height: auto;
+    }
+    #opportunity #right{
+       
+        margin: 32px;
+    }
+    #opportunity #right img{
+        width: 134%;
+        height: 153px;
+    }
+    #opportunity #left{
+        
+        margin: 22px;
+    }
+    #skills{
+        margin: 22px;
+    }
+     h3{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 430px){
+    #company .img{
+        height: 20px;
+        width: 7%;
+        
+    }
+    #skills .row .card {
+        margin-right: 1rem;
+        width: 46%; height: auto;
+    }
+    #opportunity #right img{
+        display: block;
+    }
+}
